@@ -1,0 +1,106 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  .navbar {
+    background-color: #343a40;
+  }
+  
+  .navbar-dark .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background-image: url('hero-bg.jpg'); /* Replace with your hero background image */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+  }
+  
+  /* About Me Section Styles */
+  .about-me {
+    padding: 50px 0;
+  }
+  
+  .about-me h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Portfolio Section Styles */
+  .portfolio {
+    padding: 50px 0;
+  }
+  
+  .portfolio h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section Styles */
+  .contact {
+    padding: 50px 0;
+  }
+  
+  .contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 24px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .nav-link {
+      font-size: 16px;
+    }
+  }
